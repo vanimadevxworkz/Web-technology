@@ -1,0 +1,81 @@
+*{
+    margin:0%;
+    padding:0%;
+    background-color: gainsboro;
+}
+.textbox{
+    margin-top:190px ; 
+    margin-left:400px;
+}
+
+h1{
+    color:blue;
+    font-size:60px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+} 
+
+h2{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 18px;
+    font-weight: 100px;
+    /* it is used to font color is dark */
+   width: 310px;  
+} 
+ .container{
+   margin-top: -144px;
+   margin-right: 120px;
+   float:right; 
+   border-radius: 12px;
+   background-color: white;
+    width: 390px; 
+   height: 360px;
+   text-align: center;
+}
+
+.form{
+float: center;
+background-color: white;
+margin-top: 10px;
+padding:16px;
+
+}
+.form input{
+    margin-top: 10px;
+    margin-left: -10px;
+    border-radius: 8px;
+    margin-right: -10px;
+    padding: 20px;
+    width: 280px;
+} 
+
+button{
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 8px;
+    padding: 10px;
+    width: 290px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+p{
+    background-color: white;
+    font-size: 16px;
+    color:blue;
+    margin-top: 10px;
+}
+p a{
+    color:blue;
+     background-color: white; 
+
+}
+.btn{
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 23px;
+    background-color: white;
+
+}
+  .btn button{
+    background-color: green;
+} 

@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Animatation</title>
+    <style>
+        div{
+          
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+        /* transition: width 2s,height 3s,transform 3s; */
+         /* transition-delay: 3s;nj
+         transition-duration: 2s; */
+         animation-name: animationName;
+        animation-duration: 2s; 
+        position:relative;
+        animation-direction:alternate-reverse ;
+        animation-iteration-count: 4;
+
+        
+    }
+    @keyframes animationName{
+        /* from{background-color:brown ;}
+        to{background-color: black;} */
+        0%{background-color:brown ;
+            left:0px; 
+            top:0px;
+        }
+        25%{background-color: black;
+          left:200px;
+           top:0px;
+        }
+        75%{background-color: darkgreen;
+            left:200px; 
+            top:200px;
+        }
+        100%{background-color:purple;
+           left:0px;
+           top:200px;
+        }
+    }
+   
+        
+
+    </style>
+</head>
+        <body>
+            <div></div>
+
+        </body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Transition</title>
+        <link rel="icon" href="./">
+        <style>
+            div{
+                height:100px;
+                width:100px;
+                background-color: pink;
+                transition: width 2s,height 4s, transform 4s;
+                    /* transition: width 3s;     */
+
+            }
+              div:hover{
+                 width:400px; 
+                 height: 300px;  
+                transform:rotate(360deg);
+            }  
+            .div1{
+                  transition-timing-function: linear;  
+                transition: width 2s;
+                background-color: yellow;   
+            }
+             div:hover{
+                width:100px;
+            } 
+            .div2{
+                transition-timing-function: ease;
+                transition: width 3s;
+                background-color: red;
+
+            }
+             div:hover{
+                 transform: rotate(180deg); 
+                width:200px;
+            } 
+            .div3{
+                transition-timing-function: ease-in;
+                transition: width 2s;
+                background-color: black;
+
+            }
+             div:hover{
+                width:300px;
+            } 
+             .div4{
+                transition-timing-function: ease-out;
+                transition: width 2s ;
+                background-color: greenyellow;
+
+            }
+            div:hover{
+                width:350px;
+            }
+             
+
+        </style>
+    </head>
+    <body>
+        <div></div><br>
+        <div class="div1"></div><br>
+        <div class="div2"></div><br>
+        <div class="div3"></div><br>
+        <div class="div4"></div><br> 
+        
+
+    </body>
+</html>
