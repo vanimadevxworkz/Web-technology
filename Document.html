@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Xworkz </title> 
+        <!-- <link rel="stylesheet"  href="./Document.css"> -->
+        <script src="./Document.js" ></script>
+    </head>
+    <body>
+        <div style="margin-left:10px; margin-top:10px;
+         display: flex; justify-content: center; ">
+        <form>
+            <span id="valid"></span>
+            <div>
+                <!-- <span id="valid"></span> dissadvantage so write one time only--> 
+                <!-- <span id="invalid"></span> -->
+            <label>UserName</label><br>
+            <input type="text" id="userName" onblur="nameValidation()" placeholder="enter userName">
+            </div>
+            <br>
+
+            <span id="validate"></span>
+        <div>
+            <!-- <span id="validate"></span> -->
+            <label>Password</label><br>
+            <input type="password" id="password" onblur="passvalid()" placeholder="enter password">
+        </div>
+        <br>
+
+        <div style="margin-left:10px; margin-top:10px;">
+        <!-- <button type="button" onclick="Validation()" >Submit</button> -->
+        <button type="button" id="button" >Submit</button>
+        <button type="reset"> Reset</button>
+    </div>
+    
+</form>
+</div>
+    </body>
+</html>
